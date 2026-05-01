@@ -33,8 +33,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          cd preprocessing
-          python automate_Dyah_Inkud_Daifaturahma.py
+          python preprocessing/automate_Dyah_Inkud_Daifaturahma.py
 
       - name: Commit and push changes
         run: |
